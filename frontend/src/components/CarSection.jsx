@@ -3,16 +3,22 @@ import { Link } from 'react-router-dom';
 import { useMediaQuery } from './useMediaQuery';
 import car_small from '../assets/car_small.png'
 import carpic from '../assets/carpic.png'
-import etiga from '../assets/etiga.jpeg'
+import etigo from '../assets/etigo.png'
+import innova from '../assets/innova.png'
+import swift from '../assets/swift.png'
+import xcent from '../assets/xcent.jpg'
+import urban from '../assets/urban.jpg'
+import bus1 from '../assets/25_seated_bus.jpg'
+import bus2 from '../assets/50seatedbus.png'
 
 
 const CarSection = () => {
        const isSmallScreen=useMediaQuery('(min-width: 940px)')
-       const car_images=[{src:etiga,name:"etiga"},{src:etiga,name:"etiga"},
-        {src:etiga,name:"etiga"},{src:etiga,name:"etiga"},
-        {src:etiga,name:"etiga"},{src:etiga,name:"etiga"},
-        {src:etiga,name:"etiga"},
-        {src:etiga,name:"etiga"},{src:etiga,name:"etiga"}
+       const car_images=[{src:innova,name:"Innova"},{src:swift,name:"Swift"},
+        {src:etigo,name:"Ertiga"},{src:xcent,name:"Xcent"},
+        {src:urban,name:"Innova Urban"},{src:bus1,name:"25 setaed Bus"},
+        {src:bus2,name:"50 seated Bus"}
+        
        ]
   return (
    <>
@@ -45,7 +51,7 @@ const CarSection = () => {
          </div>
 
     <div className='mt-8 text-center text-4xl text-blue-500 font-bold'>
-        <h1>KN Tours & Travels Car's</h1>
+        <h1>Gagan Travels Car's</h1>
     </div>
     <div className="mt-5 py-3 flex justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-2">

@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
-
-// Custom hook to detect media query matches
+import pathalaganga from '../assets/pathalaganga.png'
+import sriliam from '../assets/srisilamdam.jpg'
+import akkamdevi from '../assets/akkamadevi.jpg'
+import palapanthandra from '../assets/palapanthandra.jpg'
+import boatride from '../assets/boatridesriliam.jpg'
+import tiger from '../assets/tigersriliam.jpeg'
+import exterior from '../assets/exteriorsriliam.jpg'
+import interior from '../assets/sriliamtempleinterior.jpg'
+import octupus from '../assets/octupusviewpoint.jpeg'
+import forest from '../assets/sriliamforest.jpg'
+import dam from '../assets/srisilamdam.jpg'
+import temple from '../assets/sriliamtempleinterior.jpg'
 const useMediaQuery = (query) => {
     const [matches, setMatches] = useState(false);
 
@@ -72,52 +82,52 @@ const HeroExplorer = () => {
 
     // Using placeholder images for image1 array as local assets were not provided
     const image1 = [
-        { title: 'Srisailam Dam', src: 'https://placehold.co/600x400/d3d3d3/000000?text=Srisailam+Dam' },
-        { title: 'Pathala Ganga', src: 'https://placehold.co/600x400/b0b0b0/000000?text=Pathala+Ganga' },
-        { title: 'Paaladhara Panchadhara', src: 'https://placehold.co/600x400/909090/ffffff?text=Paaladhara' },
-        { title: 'Akkamahadevi Temple', src: 'https://placehold.co/600x400/707070/ffffff?text=Akkamahadevi+Temple' }
+        { title: 'Srisailam Dam', src: `${sriliam}`},
+        { title: 'Pathala Ganga', src: `${pathalaganga}` },
+        { title: 'Paaladhara Panchadhara', src:`${palapanthandra}` },
+        { title: 'Akkamahadevi Temple', src: `${akkamdevi}` }
     ];
 
     const link = 'https://api.whatsapp.com/send?phone=+91%206302362628&text=Hi,%20I%20got%20your%20number%20from%20your%20website';
 
     const images = [
         {
-            src: 'https://placehold.co/600x400/8d8d8d/ffffff?text=Temple+Interior',
+            src: `${interior}`,
             title: 'Temple Interior View',
             alt: 'Image of temple interior with sculptures'
         },
         {
-            src: 'https://placehold.co/600x400/6b6b6b/ffffff?text=Shrine+Exterior',
+            src: `${exterior}`,
             title: 'Shrine Exterior View',
             alt: 'Image of an exterior shrine or temple structure'
         },
         {
-            src: 'https://placehold.co/600x400/4a4a4a/ffffff?text=Tiger',
+            src: `${tiger}`,
             title: 'Wildlife: Tiger',
             alt: 'Image of a tiger'
         },
         {
-            src: 'https://placehold.co/600x400/3a3a3a/ffffff?text=SriSailam+Temple',
+            src: `${temple}`,
             title: 'SriSailam Temple',
             alt: 'Image of SriSailam Temple'
         },
         {
-            src: 'https://placehold.co/600x400/2a2a2a/ffffff?text=Octopus+View+Point',
+            src: `${octupus}`,
             title: 'Octopus View Point',
             alt: 'Image of Octopus View Point'
         },
         {
-            src: 'https://placehold.co/600x400/1a1a1a/ffffff?text=Boat+Ride',
+            src: `${boatride}`,
             title: 'Boat Ride',
             alt: 'Image of a boat ride'
         },
         {
-            src: 'https://placehold.co/600x400/0a0a0a/ffffff?text=Dam+View',
+            src: `${dam}`,
             title: 'Dam View',
             alt: 'Image of Srisailam Dam'
         },
         {
-            src: 'https://placehold.co/600x400/5a5a5a/ffffff?text=Forest+Path',
+            src: `${forest}`,
             title: 'Forest Path',
             alt: 'Image of a forest path'
         }

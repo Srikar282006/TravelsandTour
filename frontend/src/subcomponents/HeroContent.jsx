@@ -18,7 +18,7 @@ const HeroContent = () => {
                 clearInterval(interval);
                 return prev;
             })
-        },100); //Speed of count
+        },500); //Speed of count
 
         return ()=> clearInterval(interval)
     },[])
@@ -30,7 +30,7 @@ const HeroContent = () => {
                 clearInterval(interval1);
                 return prev1;
             })
-        },100); //Speed of count
+        },600); //Speed of count
 
         return ()=> clearInterval(interval1)
     },[])
@@ -42,7 +42,7 @@ const HeroContent = () => {
                 clearInterval(interval2);
                 return prev1;
             })
-        },100); //Speed of count
+        },700); //Speed of count
 
         return ()=> clearInterval(interval2)
     },[])
@@ -54,7 +54,7 @@ const HeroContent = () => {
                 clearInterval(interval3);
                 return prev1;
             })
-        },18); //Speed of count
+        },400); //Speed of count
 
         return ()=> clearInterval(interval3)
     },[])

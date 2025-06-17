@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Button, Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react';
 import {Link} from 'react-router-dom'
+import spiritual from '../assets/spiritual.jpg'
+import anicent from '../assets/ancientarch.jpg'
 
 // Using a generic X icon for close button as Heroicons ExclamationTriangleIcon is not appropriate here
 // For demonstration, a simple SVG close icon will be used.
@@ -38,7 +40,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    src: `${spiritual}`,
     title: "Spiritual Deity",
     category: "Religious",
     tourPackage: {
@@ -150,7 +152,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1520637836862-4d197d17c13a?w=800&h=600&fit=crop",
+    src:`${anicent}`,
     title: "Ancient Architecture",
     category: "Architecture",
     tourPackage: {

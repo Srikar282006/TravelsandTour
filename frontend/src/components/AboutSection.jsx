@@ -52,10 +52,7 @@ const AboutSection = () => {
 
         <h1 className="text-3xl font-bold mb-3 text-center ">Celebrating 10 Years of Excellence in Hyderabad to Srisailam Cab Tours</h1>
         <p className="mb-4 text-lg">
-          At KN Tours & Travels, we are proud to mark a decade of delivering exceptional travel services, providing high-quality cab packages for tours from Hyderabad to 
-          Srisailam. Since our inception, we have been 
-          driven by a commitment to offering travelers a hassle-free and memorable journey. Over the years, we've 
-          grown to become a trusted name in the travel industry.
+         At Gagan Travels, we proudly celebrate a decade of excellence in providing reliable and comfortable cab services from Hyderabad to Srisailam. Since our inception, we've been committed to delivering seamless travel experiences backed by high-quality cab packages and exceptional customer service. Our dedication to safety, punctuality, and customer satisfaction has earned us the trust of thousands of travelers, making us a leading name in the travel industry.
         </p>
         
         <h1 className="text-3xl font-bold mb-3 text-center">Our Expertise</h1>
@@ -75,7 +72,7 @@ const AboutSection = () => {
 
         <h1 className="text-3xl font-bold mb-3 text-center ">Comfort and Quality</h1>
         <p className="mb-4 text-lg m-3">
-          At KN Tours & Travels, comfort and quality are paramount. Our fleet consists of well-maintained vehicles equ
+          At Gagan Travels, comfort and quality are paramount. Our fleet consists of well-maintained vehicles equ
           ipped with modern amenities, guaranteeing a safe and pleasant ride. Our professional drivers are not only skilled in navigating the routes but also
            provide a friendly and courteous service, ensuring peace of mind throughout the journey.
         </p>
@@ -116,13 +113,13 @@ const AboutSection = () => {
         
         <h1 className="text-3xl font-bold mb-3 text-center">Begin Your Spiritual Adventure</h1>
         <p className="mb-4 text-lg">
-          With KN Tours & Travels, your Hyderabad to Srisailam journey is more than just a trip—it’s a life-enriching experience. Join us as you immerse yourself in the spiritual atmosphere of Srisailam while taking in the natural wonders of the journey.
+          With Gagan Travels, your Hyderabad to Srisailam journey is more than just a trip—it’s a life-enriching experience. Join us as you immerse yourself in the spiritual atmosphere of Srisailam while taking in the natural wonders of the journey.
         </p>
       </div>
       
     </section>
        </div>
-       <div className='mt-3 text-center text-3xl font-bold mb-3'> <h1 className='text-center text-3xl'><p className='text-blue-400 font-bold'>KN TOURS & TRAVELS</p>Your Trusted Companion for the Hyderabad to Srisailam Journey!</h1></div>
+       <div className='mt-3 text-center text-3xl font-bold mb-3'> <h1 className='text-center text-3xl'><p className='text-blue-400 font-bold'>GAGAN TRAVELS</p>Your Trusted Companion for the Hyderabad to Srisailam Journey!</h1></div>
     </>
   )
 }

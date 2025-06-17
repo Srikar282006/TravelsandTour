@@ -1,26 +1,48 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button} from '@headlessui/react'
+import salar from '../assets/salarjungmusem.jpeg'
+import chowamalla from '../assets/chowamalla.jpg'
+import birala from '../assets/birala.jpeg'
+import Jagannath from '../assets/jaganathtemple.jpg'
+import Hussain from '../assets/hussainsagar.jpeg'
+import Lumbini from '../assets/lumbini.jpeg'
+import ramoji from '../assets/ramoji.jpg'
 const attractions = [
   {
     title: "Salar Jung Museum",
     description: "The Salar Jung Museum is an art museum located at Dar-ul-shifa, on the southern bank of the Musi River in the city of Hyderabad, Telangana, India. It is one of the notable National Museums of India.",
-    image: "https://example.com/salar-jung.jpg"
+    image:`${salar}`
   },
   {
     title: "Chowmahalla Palace",
     description: "Chowmahalla Palace or Chowmahalat is the palace of the Nizams of Hyderabad State located in Hyderabad, Telangana, India. It was the seat of power of the Asaf Jahi dynasty (1720–1848).",
-    image: "https://example.com/chowmahalla.jpg"
+    image: `${chowamalla}`
   },
   {
     title: "BM Birla Science Museum",
     description: "B. M. Birla Science Museum is an Indian science museum located in Hyderabad, India. Constructed by civil engineer P. A. Singaravelu, it comprises a planetarium, museum, and science centre.",
-    image: "https://example.com/birla-science.jpg"
+    image: `${birala}`
   },
   {
     title: "Jagannath Temple",
     description: "The Jagannath Temple in Hyderabad, India, Telangana, is a modern temple built by the Cala community of the city of Hyderabad dedicated to the Hindu God Jagannath.",
-    image: "https://example.com/jagannath.jpg"
+    image:`${Jagannath}`
+  },
+  {
+    title: "Hussain Sagar",
+    description: "Hussain Sagar is a heart-shaped artificial lake located in Hyderabad, Telangana, India. Built in 1563 by Ibrahim Quli Qutb Shah, it connects the twin cities of Hyderabad and Secunderabad. The lake is famous for the massive Buddha statue situated on Gibraltar Rock at its center. Surrounded by parks, temples, and tourist spots like Lumbini Park and Necklace Road, it is a popular destination for boating and evening leisure.",
+    image: `${Hussain}`
+  },
+  {
+    title: "Lumbini Park",
+    description: "Lumbini Park  is a charming 3 hectare (7.5 acre) urban park on the southern edge of Hussain Sagar Lake, Hyderabad. Offers paddle, motor, speed, and “Bhagamati” boats; ferries take you to the iconic Buddha Statue at the lake’s center.Floral clock, cascading waterfalls, kid-friendly rides (swings, merry-go-round), and well-maintained gardens .",
+    image: `${Lumbini}`
+  },
+  {
+    title: "Ramoji Film City",
+    description: "Ramoji Film City is a sprawling film studio complex and theme park located about 30–35 km from Hyderabad, in Anaspur, Telangana.World’s Largest Integrated Film Studio spanning ~2,000–2,500 acres, recognized by the Guinness World Records.Guided bus tours through themed sets—London Street, Japanese Garden, Mughal Garden, airport, railway station, and iconic film sets like Baahubali.",
+    image: `${ramoji}`
   }
 ];
 

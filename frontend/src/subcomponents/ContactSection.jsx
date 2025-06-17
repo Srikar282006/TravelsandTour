@@ -60,7 +60,7 @@ const ContactSection = () => {
                             </svg>
                         </div>
                         <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-                        <p className="text-center text-gray-200 break-words">info@kntourstravels.com</p>
+                        <p className="text-center text-gray-200 break-words">info@gagantravels.com</p>
                     </div>
 
                     <div className="flex flex-col items-center p-8 bg-blue-700 text-white rounded-xl shadow-lg transition-transform transform hover:scale-105 duration-300">

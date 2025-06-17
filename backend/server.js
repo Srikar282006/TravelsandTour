@@ -12,14 +12,16 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Configure Nodemailer transporter
-// Replace 'YOUR_APP_PASSWORD_HERE' with the 16-character App Password you generated
+
 const transporter = nodemailer.createTransport({
     service: 'gmail', // Use 'gmail' service, which often implies secure connection
     auth: {
         user: process.env.USER_EMAIL, // Your Gmail address
         pass:process.env.USER_PASS // <--- REPLACE THIS WITH YOUR GENERATED APP PASSWORD
         // If using environment variables: process.env.GMAIL_APP_PASSWORD
+    },
+    tls: {
+        rejectUnauthorized: false
     }
 });
 
